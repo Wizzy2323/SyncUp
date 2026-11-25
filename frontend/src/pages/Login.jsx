@@ -57,7 +57,7 @@ console.log(error.response.data);
                 
                 <div className='w-full h-[200px] bg-blue-400 rounded-b-[30%] shadow-gray-100 shadow-lg
                 flex items-center justify-center'>
-                    <h1 className='text-black font-bold text-[38px]'>Login To <span className='text-white'>ConvoSphere</span></h1>
+                    <h1 className='text-black font-bold text-[38px]'>Login To <span className='text-white'>SyncUp</span></h1>
                 </div>
                 
                 <form className='w-full flex flex-col gap-[20px] items-center' onSubmit={handleLogin}>

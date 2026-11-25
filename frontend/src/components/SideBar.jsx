@@ -70,7 +70,7 @@ function SideBar() {
 
             {/* Profile Header Card */}
             <div className='w-full flex-shrink-0 bg-fuchsia-600 rounded-b-[30%] shadow-gray-400 shadow-lg flex flex-col justify-center px-[20px] py-[30px]'>
-                <h1 className='text-white font-bold text-[25px]'>ConvoSphere</h1>
+                <h1 className='text-white font-bold text-[25px]'>SyncUp</h1>
                 <div className='w-full flex justify-between items-center'>
                     <h1 className='text-gray-800 font-bold text-[25px]'>Hii {userData?.name || "user"}</h1>
                     <div 

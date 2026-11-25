@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="frontend/public/image.png" alt="ConvoSphere logo" width="110" />
+<img src="frontend/public/image.png" alt="SyncUp logo" width="110" />
 
-# ConvoSphere
+# SyncUp
 
 **A WhatsApp-style real-time chat app with 1:1 chats, group chats, image sharing and message deletion.**
 
@@ -14,7 +14,7 @@
 ---
 
 ## Introduction
-ConvoSphere is a full-stack MERN application that covers real-time messaging end to end: authentication, persistent storage, live delivery over WebSockets, media uploads and group management.
+SyncUp is a full-stack MERN application that covers real-time messaging end to end: authentication, persistent storage, live delivery over WebSockets, media uploads and group management.
 
 Messages are saved to MongoDB through a REST API and pushed instantly to online recipients via Socket.IO. Offline users receive them on their next load. The UI is a responsive, WhatsApp-inspired layout built with React and Tailwind CSS.
 
@@ -108,7 +108,7 @@ sequenceDiagram
 ## Folder Structure
 
 ```
-ConvoSphere/
+SyncUp/
 ├── backend/
 │   ├── config/
 │   │   ├── cloudinary.js        # Upload helper (deletes temp file afterwards)
@@ -319,7 +319,7 @@ Returns `201` with the populated group (`admin` and `members` expanded, password
 ### 1. Clone the repository
 ```bash
 git clone <your-repo-url>
-cd ConvoSphere
+cd SyncUp
 ```
 
 ### 2. Backend

@@ -323,7 +323,7 @@ function MessageArea() {
       ) : (
         /* No Chat Selected State */
         <div className='w-full h-full flex flex-col justify-center items-center gap-2'>
-          <h1 className='text-gray-700 font-bold text-[40px] lg:text-[50px]'>Welcome to ConvoSphere</h1>
+          <h1 className='text-gray-700 font-bold text-[40px] lg:text-[50px]'>Welcome to SyncUp</h1>
           <span className='text-gray-500 font-semibold text-[20px] lg:text-[30px]'>Select a chat to start messaging!</span>
         </div>
       )}
